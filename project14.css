@@ -1,0 +1,293 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.sec-1{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(45deg,#4C17A4,#2D6BDC);
+}
+
+.login{
+    border: 2px solid white;
+    padding: 5px 15px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.signup{
+    border: 2px solid  #00BFD5;
+    padding: 5px 15px;
+    background: #00BFD5;
+}
+.nav-link{
+    margin: 0px 15px;
+    font-size: 14px;
+}
+.navbar{
+    
+    padding: 15px 0px;
+}
+.input{
+    width: 40%;
+    padding: 5px 20px;
+    background: transparent;
+    border: 1px solid white;
+    outline: none;
+}
+.input::placeholder{
+    color: gray;
+}
+.searchbtn{
+    background:#00BFD5;
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.pricingmain{
+    list-style-type: square;
+}
+.pricingmain li{
+    margin: 0px 30px;
+}
+.pricingmain li::marker{
+    font-size: 30px;
+}
+.textbox{
+    padding-top: 130px;
+}
+.sec-2{
+    background:#eae8e8;
+}
+.logotext{
+    font-size: 25px;
+    font-weight: bold;
+}
+.logotext .logo{
+    font-size: 30px;
+    margin-right: 5px !important;
+    color: #3066D9;
+}
+.sec-3-inner{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.sec-3-inner .heading{
+    color: #00BCD5;
+    font-weight: bold;
+}
+.sec-3-inner h3{
+    font-weight: bold;
+}
+.services{
+    background-color: #eae8e8;
+    margin: 0px 15px;
+    padding: 25px 15px;
+}
+.services .fas{
+    font-size: 30px;
+    background: #00BCD5;
+    color: white;
+    padding: 25px;
+}
+.services h6 {
+    font-weight: bold;
+}
+.inn-text{
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.services p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.sec-4{
+    background-image: linear-gradient(45deg,#4C17A4,#2D6BDC);
+}
+.pricing{
+    background: white;
+    margin: 0px 10px;
+}
+.exactpricing{
+    background:#00BCD5;
+    margin: 0px 15px;
+    padding: 20px 0px;
+    font-weight: bold;
+    color: white;
+}
+.price-text{
+    font-weight: 500;
+    font-size: 14px;
+}
+.todo div{
+    margin: 10px 0px !important;
+}
+.todo div .fas{
+    margin-right: 5px;
+}
+.pricing .btn {
+    background:#00BCD5;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+.s5-box p{
+    color:#00BCD5;
+    font-weight: bold;
+}
+.sec-5-row .col-12{
+    margin: 0px 10px;
+    padding: 25px;
+}
+.box-icon .fas{
+    font-size: 40px;
+    margin-right: 20px;
+    color: #2D6BDC;
+}
+.text-box-inner p{
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.sec-6{
+    background: #eae8e8 ;
+}
+.s6-textbox p{
+    color: #00BCD5
+}
+.s6-textbox .fa{
+    margin-top: 50px;
+    font-size: 16px;
+    color: white;
+    background-image: linear-gradient(45deg,#4C17A4,#2D6BDC);
+    padding: 20px;
+}
+.item p{
+    font-size: 20px;
+}
+.item .founders{
+    color: #00BCD5;
+    font-size: 14px;
+    font-weight: bold;
+}
+.s-7{
+    background-image: linear-gradient(to right,#720AC1,#395EF4);
+}
+.s-7-inner .row .col-12 p{
+    font-size: 14px;
+    margin: 3px 0px;
+}
+
+@media only screen and (max-width: 1024px){
+    .textbox {
+        padding-top: 300px;
+    }
+    .input {
+        width: 60%;
+        padding: 5px 20px;
+        background: transparent;
+        border: 1px solid white;
+    }
+    .textbox h2{
+        font-size: 45px;
+    }
+}
+@media only screen and (max-width: 768px){
+
+    .textbox {
+        padding-top: 200px;
+    }
+    .textbox h2{
+        font-size: 35px;
+    }
+    .nav-item .nav-link{
+        margin: 0px !important ;
+    }
+    .navbar-nav .d-flex{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0px !important;
+    }
+    .navbar-nav .d-flex .text-decoration-none{
+        margin: 5px 0px;
+    }
+    .pricing {
+        background: white;
+        margin: 0px 10px;
+        padding: 25px 15px !important;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .textbox {
+        padding-top: 100px;
+    }
+    .textbox h2{
+        font-size: 30px;
+    }
+    .pricingmain{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .pricingmain li {
+        margin: 5px 130px;
+    }
+    .pricingmain li::marker {
+        font-size: 35px;
+    }
+    .services {
+        background-color: #eae8e8;
+        margin: 10px 0px;
+        padding: 25px 15px;
+    }
+    .pricing {
+        background: white;
+        margin: 20px 0px;
+        padding: 25px 15px !important;
+    }
+    .sec-5-row .col-12 {
+        margin: 20px 0px;
+        padding: 25px;
+    }
+    
+    .association .col-12{
+        margin: 15px 0px;
+    }
+    .inn-text {
+        font-size: 15px;
+        font-weight: 500;
+        padding-bottom: 20px;
+    }
+    .sec-5-row{
+        margin: 0px 5px;
+    }
+    .searchbtn {
+        background: #00BFD5;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        margin-left: 5px;
+    }
+    .item p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+
+    .textbox h2 {
+        font-size: 25px;
+    }
+    .searchbtn {
+        background: #00BFD5;
+        color: white;
+        font-weight: bold;
+        font-size: 13px;
+        margin-left: 5px;
+    }
+    .pricingmain li {
+        margin: 2px 114px;
+    }
+}
