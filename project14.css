@@ -49,6 +49,7 @@
 }
 .pricingmain li{
     margin: 0px 30px;
+    font-size:22px
 }
 .pricingmain li::marker{
     font-size: 30px;
