@@ -233,10 +233,10 @@
         padding: 0px;
     }
     .pricingmain li {
-        margin: 5px 130px;
+        margin: 10px 130px;
     }
     .pricingmain li::marker {
-        font-size: 35px;
+        font-size: 35px !important;
     }
     .services {
         background-color: #F7F7F7;
