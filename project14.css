@@ -233,7 +233,8 @@
         padding: 0px;
     }
     .pricingmain li {
-        margin: 10px 130px;
+        margin: 15px 130px;
+        font-weight: bold
     }
     .pricingmain li::marker {
         font-size: 35px !important;
